@@ -7,9 +7,10 @@ $ ->
     $(this).closest('#benefits_container').find('.phone_item_container').addClass('active_phone_item_container').siblings().removeClass('active_phone_item_container')
     value = $(@).data('value')
 
-    if value == 0
-      $('.first_phone').addClass('active_phone_item_container')
-    if value == 1
-      $('.second_phone').addClass('active_phone_item_container')
-    if value == 2
-      $('.third_phone').addClass('active_phone_item_container')
+    # if value == 0
+    #   $('.first_phone').addClass('active_phone_item_container')
+    # if value == 1
+    #   $('.second_phone').addClass('active_phone_item_container')
+    # if value == 2
+    #   $('.third_phone').addClass('active_phone_item_container')
+
