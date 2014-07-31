@@ -1,0 +1,58 @@
+#benefits_container
+  #header 
+    %h3 CLARI BENEFITS
+  %hr
+  #carousel_main_nav
+    / Indicators
+    %ol.carousel-indicators
+      %li.active{"data-slide-to" => "0", "data-target" => "#carousel-example-generic"}
+        .menu_bar.active_menu_bar
+          .person_icon
+            = image_tag 'sales_rep_icon.png'
+          CLARI FOR SALES REP
+      %li{"data-slide-to" => "1", "data-target" => "#carousel-example-generic"}
+        .menu_bar
+          .person_icon
+            = image_tag 'sales_manager_icon.png'
+          CLARI FOR SALES REP
+      %li{"data-slide-to" => "2", "data-target" => "#carousel-example-generic"}
+        .menu_bar
+          .person_icon
+            = image_tag 'sales_op_icon.png'
+          CLARI FOR SALES REP
+
+  #carousel-example-generic.carousel.slide{"data-ride" => "carousel"}
+
+    / Wrapper for slides
+    .carousel-inner
+      .item.active
+        .container
+          .header
+            %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            .first_slide_menu
+              %ul
+                %li.first_slide_menu_active Your Personal Deal Assistant
+                %li Your CRM Update Acclerator
+                %li Your Strategic Pipeline Manager
+        #first_slide_background 
+          .container
+            .phone_item_container.float-left.active_phone_item_container
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              = image_tag 'bg-device-reps-1-1.png'
+            .phone_item_container.float-left
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              = image_tag 'bg-device-reps-1-2.png'
+            .phone_item_container.float-left
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              = image_tag 'bg-device-reps-1-3.png'
+      .item
+        .container
+          hello2
+      .item
+        .container
+          hello3
+    / Controls
+    %a.left.carousel-control{"data-slide" => "prev", href: "#carousel-example-generic", role: "button"}
+      %span.glyphicon.glyphicon-chevron-left
+    %a.right.carousel-control{"data-slide" => "next", href: "#carousel-example-generic", role: "button"}
+      %span.glyphicon.glyphicon-chevron-right
