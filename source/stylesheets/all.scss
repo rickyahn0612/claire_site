@@ -45,13 +45,16 @@ body {
     }
 
     li.active {
-      // background: #6D818A;
+      background: #6D818A;
+      width: 250px !important;
+      height: 140px;
+      color: white;
     }
   }
 }
 
 .active_menu_bar {
-  background: #687A7E !important;
+  // background: #687A7E;
   width: 250px !important;
   height: 140px;
   color: white;

@@ -31,18 +31,18 @@
             %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
             .first_slide_menu
               %ul
-                %li.first_slide_menu_active Your Personal Deal Assistant
-                %li Your CRM Update Acclerator
-                %li Your Strategic Pipeline Manager
+                %li.first_slide_menu_active{"data-value" => "0"} Your Personal Deal Assistant
+                %li{"data-value" => "1"} Your CRM Update Acclerator
+                %li{"data-value" => "2"} Your Strategic Pipeline Manager
         #first_slide_background 
           .container
-            .phone_item_container.float-left.active_phone_item_container
+            .phone_item_container.float-left.active_phone_item_container.first_phone{style: 'margin-right: 4px;'}
               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               = image_tag 'bg-device-reps-1-1.png'
-            .phone_item_container.float-left
+            .phone_item_container.float-left.second_phone{style: 'margin-right: 4px;'}
               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               = image_tag 'bg-device-reps-1-2.png'
-            .phone_item_container.float-left
+            .phone_item_container.float-left.third_phone
               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               = image_tag 'bg-device-reps-1-3.png'
       .item
