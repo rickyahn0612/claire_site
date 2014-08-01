@@ -9,10 +9,7 @@ $ ->
 
     if value == 0
       $('#first_slide_set_1').fadeIn().siblings().hide()
-      $('#first_slide_set_1 img').animate({'opacity': 1}, 200, ->
-        $('#first_slide_set_1 img').animate({'margin-top': 15}, 1000)
-      )
-
+      $('#first_slide_set_1 img').animate({'opacity': 1}, 200)
     if value == 1
       $('#first_slide_set_2').fadeIn().siblings().hide()
       $('#first_slide_set_2 img').animate({'opacity': 1}, 200, ->
