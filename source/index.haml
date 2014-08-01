@@ -22,7 +22,6 @@
           CLARI FOR SALES REP
 
   #carousel-example-generic.carousel.slide{"data-ride" => "carousel"}
-
     / Wrapper for slides
     .carousel-inner
       .item.active
@@ -35,26 +34,131 @@
                 %li{"data-value" => "1"} Your CRM Update Acclerator
                 %li{"data-value" => "2"} Your Strategic Pipeline Manager
         #first_slide_background 
-          .container
-            .phone_item_container.float-left.first_phone{style: 'margin-right: 4px;'}
-              .float-left.phone_number_container
-                %span.number 1
-              .float-right.phone_content_container
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              = image_tag 'bg-device-reps-1-1.png'
-            .phone_item_container.float-left.second_phone{style: 'margin-right: 4px;'}
-              .float-left.phone_number_container
-                %span.number 2
-              .float-right.phone_content_container
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              = image_tag 'bg-device-reps-1-2.png'
-            .phone_item_container.float-left.third_phone
-              .float-left.phone_number_container
-                %span.number 3
-              .float-right.phone_content_container
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              = image_tag 'bg-device-reps-1-3.png'
-            .clear
+          .container#first_slide_1.hide_first_slide
+
+
+
+
+            #first_slide_set_1
+              .phone_item_container.float-left.first_phone{style: 'margin-right: 4px;'}
+                .float-left.phone_number_container
+                  %span.number 1
+                .float-right.phone_content_container
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                = image_tag 'bg-device-reps-1-1.png'
+              .phone_item_container.float-left.second_phone{style: 'margin-right: 4px;'}
+                .float-left.phone_number_container
+                  %span.number 2
+                .float-right.phone_content_container
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                = image_tag 'bg-device-reps-1-2.png'
+              .phone_item_container.float-left.third_phone
+                .float-left.phone_number_container
+                  %span.number 3
+                .float-right.phone_content_container
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                = image_tag 'bg-device-reps-1-3.png'
+              .clear
+
+
+
+
+
+            #first_slide_set_2
+              .phone_item_container.float-left.first_phone{style: 'margin-right: 4px;'}
+                .float-left.phone_number_container
+                  %span.number 1
+                .float-right.phone_content_container
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                = image_tag 'bg-device-reps-2-1.png', class: 'slide-2-image-1'
+              .phone_item_container.float-left.second_phone{style: 'margin-right: 4px;'}
+                .float-left.phone_number_container
+                  %span.number 2
+                .float-right.phone_content_container
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                = image_tag 'bg-device-reps-2-2.png', class: 'slide-2-image-2'
+              .phone_item_container.float-left.third_phone
+                .float-left.phone_number_container
+                  %span.number 3
+                .float-right.phone_content_container
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                = image_tag 'bg-device-reps-2-3.png', class: 'slide-2-image-3'
+              .clear
+
+            #first_slide_set_3
+              .phone_item_container.float-left.first_phone{style: 'margin-right: 4px;'}
+                .float-left.phone_number_container
+                  %span.number 1
+                .float-right.phone_content_container
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                = image_tag 'bg-device-reps-1-1.png'
+              .phone_item_container.float-left.second_phone{style: 'margin-right: 4px;'}
+                .float-left.phone_number_container
+                  %span.number 2
+                .float-right.phone_content_container
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                = image_tag 'bg-device-reps-1-2.png'
+              .phone_item_container.float-left.third_phone
+                .float-left.phone_number_container
+                  %span.number 3
+                .float-right.phone_content_container
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                = image_tag 'bg-device-reps-1-3.png'
+              .clear
+
+
+
+
+
+          / .container#first_slide_2
+          /   .phone_item_container.float-left.first_phone{style: 'margin-right: 4px;'}
+          /     .float-left.phone_number_container
+          /       %span.number 1
+          /     .float-right.phone_content_container
+          /       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          /     = image_tag 'bg-device-reps-2-1.png', class: 'slide-2-image-1'
+          /   .phone_item_container.float-left.second_phone{style: 'margin-right: 4px;'}
+          /     .float-left.phone_number_container
+          /       %span.number 2
+          /     .float-right.phone_content_container
+          /       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          /     = image_tag 'bg-device-reps-2-2.png', class: 'slide-2-image-2'
+          /   .phone_item_container.float-left.third_phone
+          /     .float-left.phone_number_container
+          /       %span.number 3
+          /     .float-right.phone_content_container
+          /       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          /     = image_tag 'bg-device-reps-2-3.png', class: 'slide-2-image-3'
+          /   .clear
+
+
+
+
+
+
+
+
+
+          / .container#first_slide_3
+          /   .phone_item_container.float-left.first_phone{style: 'margin-right: 4px;'}
+          /     .float-left.phone_number_container
+          /       %span.number 1
+          /     .float-right.phone_content_container
+          /       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          /     = image_tag 'bg-device-reps-1-1.png'
+          /   .phone_item_container.float-left.second_phone{style: 'margin-right: 4px;'}
+          /     .float-left.phone_number_container
+          /       %span.number 2
+          /     .float-right.phone_content_container
+          /       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          /     = image_tag 'bg-device-reps-1-2.png'
+          /   .phone_item_container.float-left.third_phone
+          /     .float-left.phone_number_container
+          /       %span.number 3
+          /     .float-right.phone_content_container
+          /       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          /     = image_tag 'bg-device-reps-1-3.png'
+          /   .clear
       .item
         .container
           hello2

@@ -119,7 +119,9 @@ body {
 
   .container {
     background: rgba(255,255,255,0.50);
-    width: 980px
+    width: 980px;
+    height: 570px;
+    overflow: hidden;
   }
 }
 
@@ -157,6 +159,66 @@ body {
     font-weight: 200;
   }
 }
+
+#first_slide_1 {
+
+}
+
+#first_slide_set_2 {
+  display: none;
+
+  img {
+    margin-top: 500px;
+    opacity: 0;
+  }
+}
+
+#first_slide_set_3 {
+  display: none;
+
+  img {
+    margin-top: 500px;
+    opacity: 0;
+  }
+}
+
+// #first_slide_2 {
+//   display: none;
+
+//   img {
+//     margin-top: 500px;    
+//   }
+// }
+
+// #first_slide_3 {
+//   display: none;
+
+//   img {
+//     margin-top: 500px;    
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ////////////////////////////////////////////////////////////////
