@@ -27,7 +27,7 @@
       .item.active
         .container
           .header
-            %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            %p Clari delivers all the information sales reps need about their customers right to their fingertips on their mobile device saving them time, shortening sales cycles, and increasing win rates.  And Clari captures deal progress as they sell often automatically instead of forcing them to spend hours at their computer away from selling.
             .first_slide_menu
               %ul
                 %li.first_slide_menu_active{"data-value" => "0"} Your Personal Deal Assistant
@@ -107,64 +107,50 @@
               .clear
 
 
+      /// SECOND SLIDE ///
 
-
-
-          / .container#first_slide_2
-          /   .phone_item_container.float-left.first_phone{style: 'margin-right: 4px;'}
-          /     .float-left.phone_number_container
-          /       %span.number 1
-          /     .float-right.phone_content_container
-          /       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          /     = image_tag 'bg-device-reps-2-1.png', class: 'slide-2-image-1'
-          /   .phone_item_container.float-left.second_phone{style: 'margin-right: 4px;'}
-          /     .float-left.phone_number_container
-          /       %span.number 2
-          /     .float-right.phone_content_container
-          /       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          /     = image_tag 'bg-device-reps-2-2.png', class: 'slide-2-image-2'
-          /   .phone_item_container.float-left.third_phone
-          /     .float-left.phone_number_container
-          /       %span.number 3
-          /     .float-right.phone_content_container
-          /       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          /     = image_tag 'bg-device-reps-2-3.png', class: 'slide-2-image-3'
-          /   .clear
-
-
-
-
-
-
-
-
-
-          / .container#first_slide_3
-          /   .phone_item_container.float-left.first_phone{style: 'margin-right: 4px;'}
-          /     .float-left.phone_number_container
-          /       %span.number 1
-          /     .float-right.phone_content_container
-          /       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          /     = image_tag 'bg-device-reps-1-1.png'
-          /   .phone_item_container.float-left.second_phone{style: 'margin-right: 4px;'}
-          /     .float-left.phone_number_container
-          /       %span.number 2
-          /     .float-right.phone_content_container
-          /       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          /     = image_tag 'bg-device-reps-1-2.png'
-          /   .phone_item_container.float-left.third_phone
-          /     .float-left.phone_number_container
-          /       %span.number 3
-          /     .float-right.phone_content_container
-          /       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          /     = image_tag 'bg-device-reps-1-3.png'
-          /   .clear
       .item
         .container
-          hello2
+          .header{style: 'height: 138px;'}
+            %p Clari delivers new levels of visibility into how deals are progressing out in the field allowing sales managers to drive more business and increase the accuracy of their forecast.
+            .second_slide_menu
+              %ul
+                %li.first_slide_menu_active{"data-value" => "0"} Configurable dashboard oriented around key team objectives
+                %li{"data-value" => "1"} Full visibility into deal activity across your team 
+                %li{"data-value" => "2"} Analytic-driven insights into deal progress and risks
+                %li{"data-value" => "3"} Instant access to deal status and milestones
+        #second_slide_background 
+          .container#first_slide_1.hide_first_slide
+
+            #second_slide_set_1
+              .ipad_item_container
+                .ipad_image_set_1
+                  = image_tag 'ipad_image_1.png'
+                .ipad_image_set_2
+                  = image_tag 'ipad_image_3.png'
+                .ipad_image_set_3
+                  = image_tag 'ipad_image_1.png'
+                .ipad_image_set_4
+                  = image_tag 'ipad_image_3.png'
+
+              .clear
+
+
+
+
+
+
       .item
         .container
-          hello3
+          .header
+            %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+        #second_slide_background 
+          .container#first_slide_1.hide_first_slide
+
+            #second_slide_set_1
+              .ipad_image_set_1
+                = image_tag 'bg-device-ops-1-1.png'
+              .clear
     / Controls
     %a.left.carousel-control{"data-slide" => "prev", href: "#carousel-example-generic", role: "button"}
       %span.glyphicon.glyphicon-chevron-left
