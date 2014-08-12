@@ -3,13 +3,13 @@
 @mixin slide_background_images($backgroundImage) {
   background-image: $backgroundImage;
   width: 100%;
-  height: 600px;
+  height: 700px;
   background-size: cover;
 
   .container {
     background: rgba(255,255,255,0.50);
     width: 980px;
-    height: 570px;
+    height: 610px;
     overflow: hidden;
     padding-top: 40px;
   }
