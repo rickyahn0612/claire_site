@@ -8,7 +8,7 @@
 
   .container {
     background: rgba(255,255,255,0.50);
-    width: 980px;
+    width: 976px;
     height: 610px;
     overflow: hidden;
     padding-top: 40px;
@@ -73,7 +73,11 @@ body {
       width: 250px !important;
       height: 140px;
       background: #ffffff;
-      margin-right: 100px;
+      margin-right: 90px;
+
+      &:nth-child(2) {
+        padding: 0 10px 0 10px;
+      }
 
       &:nth-child(3) {
         margin-right: 0 !important;
