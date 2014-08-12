@@ -269,20 +269,24 @@ body {
   position: relative;
   right: -30px; }
 
-/* line 304, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 295, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.ui-loader {
+  display: none; }
+
+/* line 303, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel {
   position: relative;
   top: -12px;
   background: #687A7E; }
 
-/* line 309, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 308, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-inner {
   position: relative;
   width: 100%;
-  height: 650px;
+  height: 770px;
   overflow: hidden; }
 
-/* line 315, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 314, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-inner > .item {
   position: relative;
   display: none;
@@ -290,50 +294,50 @@ body {
   -o-transition: .6s ease-in-out left;
   transition: .6s ease-in-out left; }
 
-/* line 323, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 322, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   line-height: 1; }
 
-/* line 328, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 327, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-inner > .active,
 .carousel-inner > .next,
 .carousel-inner > .prev {
   display: block; }
 
-/* line 331, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 330, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-inner > .active {
   left: 0; }
 
-/* line 335, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 334, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-inner > .next,
 .carousel-inner > .prev {
   position: absolute;
   top: 0;
   width: 100%; }
 
-/* line 340, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 339, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-inner > .next {
   left: 100%; }
 
-/* line 343, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 342, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-inner > .prev {
   left: -100%; }
 
-/* line 347, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 346, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-inner > .next.left,
 .carousel-inner > .prev.right {
   left: 0; }
 
-/* line 350, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 349, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-inner > .active.left {
   left: -100%; }
 
-/* line 353, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 352, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-inner > .active.right {
   left: 100%; }
 
-/* line 356, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 355, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-control {
   position: absolute;
   top: 0;
@@ -347,7 +351,7 @@ body {
   filter: alpha(opacity=50);
   opacity: .5; }
 
-/* line 369, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 368, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-control.left {
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
@@ -356,7 +360,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
   background-repeat: repeat-x; }
 
-/* line 377, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 376, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-control.right {
   right: 0;
   left: auto;
@@ -367,7 +371,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
   background-repeat: repeat-x; }
 
-/* line 388, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 387, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-control:hover,
 .carousel-control:focus {
   color: #fff;
@@ -376,7 +380,7 @@ body {
   outline: 0;
   opacity: .9; }
 
-/* line 398, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 397, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-control .icon-prev,
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-left,
@@ -386,19 +390,19 @@ body {
   z-index: 5;
   display: inline-block; }
 
-/* line 405, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 404, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-control .icon-prev,
 .carousel-control .glyphicon-chevron-left {
   left: 50%;
   margin-left: -10px; }
 
-/* line 410, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 409, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-right {
   right: 50%;
   margin-right: -10px; }
 
-/* line 415, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 414, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-control .icon-prev,
 .carousel-control .icon-next {
   width: 20px;
@@ -406,22 +410,22 @@ body {
   margin-top: -10px;
   font-family: serif; }
 
-/* line 421, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 420, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-control .icon-prev:before {
   content: '\2039'; }
 
-/* line 424, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 423, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-control .icon-next:before {
   content: '\203a'; }
 
-/* line 427, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 426, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-indicators {
   z-index: 15;
   padding-left: 0;
   text-align: center;
   list-style: none; }
 
-/* line 433, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 432, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-indicators li {
   display: inline-block;
   width: 10px;
@@ -432,14 +436,14 @@ body {
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid #fff; }
 
-/* line 443, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 442, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-indicators .active {
   width: 12px;
   height: 12px;
   margin: 0;
   background-color: #fff; }
 
-/* line 449, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 448, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-caption {
   position: absolute;
   right: 15%;
@@ -452,12 +456,12 @@ body {
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
 
-/* line 461, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+/* line 460, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
 .carousel-caption .btn {
   text-shadow: none; }
 
 @media screen and (min-width: 768px) {
-  /* line 468, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  /* line 467, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-prev,
@@ -467,22 +471,22 @@ body {
     margin-top: -15px;
     font-size: 30px; }
 
-  /* line 475, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  /* line 474, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .icon-prev {
     margin-left: -15px; }
 
-  /* line 479, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  /* line 478, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-next {
     margin-right: -15px; }
 
-  /* line 482, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  /* line 481, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
   .carousel-caption {
     right: 20%;
     left: 20%;
     padding-bottom: 30px; }
 
-  /* line 487, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  /* line 486, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
   .carousel-indicators {
     bottom: 20px; } }
