@@ -1,5 +1,20 @@
 @import "compass";
 
+@mixin slide_background_images($backgroundImage) {
+  background-image: $backgroundImage;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+
+  .container {
+    background: rgba(255,255,255,0.50);
+    width: 980px;
+    height: 570px;
+    overflow: hidden;
+    padding-top: 40px;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -8,6 +23,8 @@ body {
 .clear{ 
   clear: both;
 }
+
+
 
 #benefits_container {
   font-family: helvetica;
@@ -58,7 +75,7 @@ body {
       width: 250px !important;
       height: 140px;
       background: #ffffff;
-      margin-right: 107px;
+      margin-right: 100px;
 
       &:nth-child(3) {
         margin-right: 0 !important;
@@ -74,8 +91,20 @@ body {
   }
 }
 
+#first_slide_background {
+  @include slide_background_images(url('../images/bg-benefits-reps.jpg'));
+}
+
+#second_slide_background {
+  @include slide_background_images(url('../images/bg-benefits-managers.jpg'));
+}
+
+#third_slide_background {
+  @include slide_background_images(url('../images/bg-benefits-ops.jpg'));
+}
+
+
 .active_menu_bar {
-  // background: #687A7E;
   width: 250px !important;
   height: 140px;
 }
@@ -95,16 +124,14 @@ body {
 
 .first_slide_menu {
   position: relative;
-  // top: -12px;
 
   ul {
     list-style: none;
-    
     padding: 0;
 
     li {
       display: inline-block;
-      margin-right: -12px;
+      margin-right: -13px;
       cursor: pointer;
       padding: 26px;
       width: 280px;
@@ -124,20 +151,7 @@ body {
   }
 }
 
-#first_slide_background {
-  background-image: url('../images/bg-benefits-reps.jpg');
-  width: 100%;
-  height: 600px;
-  background-size: cover;
 
-  .container {
-    background: rgba(255,255,255,0.50);
-    width: 980px;
-    height: 570px;
-    overflow: hidden;
-    padding-top: 40px;
-  }
-}
 
 .phone_item_container {
   width: 280px;
@@ -175,14 +189,7 @@ body {
   }
 }
 
-#first_slide_1 {
-  img {
-    margin-top: 500px;
-    opacity: 0;
-  }
-}
-
-#first_slide_set_2 {
+.first_slide_active_class {
   display: none;
 
   img {
@@ -190,20 +197,6 @@ body {
     opacity: 0;
   }
 }
-
-#first_slide_set_3 {
-  display: none;
-
-  img {
-    margin-top: 500px;
-    opacity: 0;
-  }
-}
-
-
-
-
-
 
 .second_slide_menu {
   text-align: left !important;
@@ -216,12 +209,12 @@ body {
 
     li {
       display: inline-block;
-      margin-right: -12px;
+
       cursor: pointer;
       font-weight: bold;
       width: 200px;
       padding: 10px;
-      margin-right: 29px;
+      margin-right: 28px;
       vertical-align:text-top;
 
       &:nth-child(4) {
@@ -241,36 +234,6 @@ body {
   }
 }
 
-#second_slide_background {
-  background-image: url('../images/bg-benefits-managers.jpg');
-  width: 100%;
-  height: 600px;
-  background-size: cover;
-
-  .container {
-    background: rgba(255,255,255,0.50);
-    width: 980px;
-    height: 570px;
-    overflow: hidden;
-    padding-top: 40px;
-  } 
-}
-
-#third_slide_background {
-  background-image: url('../images/bg-benefits-ops.jpg');
-  width: 100%;
-  height: 600px;
-  background-size: cover;
-
-  .container {
-    background: rgba(255,255,255,0.50);
-    width: 980px;
-    height: 570px;
-    overflow: hidden;
-    padding-top: 40px;
-  } 
-}
-
 .ipad_item_container {  
   height: 540px;
   width: 800px;
@@ -280,22 +243,10 @@ body {
   z-index: 10000;
 }
 
-.ipad_image_set_2 {
+.slide_two_item_styles {
   opacity: 0;
   position: absolute;
-  top: 0px;
-}
-
-.ipad_image_set_3 {
-  opacity: 0;
-  position: absolute;
-  top: 0px;
-}
-
-.ipad_image_set_4 {
-  opacity: 0;
-  position: absolute;
-  top: 0px;
+  top: 0px; 
 }
 
 .description_number_container {

@@ -41,7 +41,7 @@
 
 
 
-            #first_slide_set_1
+            #first_slide_set_1.first_slide_active_class
               .phone_item_container.float-left.first_phone{style: 'margin-right: 4px;'}
                 .float-left.phone_number_container
                   %span.number 1
@@ -63,10 +63,7 @@
               .clear
 
 
-
-
-
-            #first_slide_set_2
+            #first_slide_set_2.first_slide_active_class
               .phone_item_container.float-left.first_phone{style: 'margin-right: 4px;'}
                 .float-left.phone_number_container
                   %span.number 1
@@ -87,7 +84,7 @@
                 = image_tag 'bg-device-reps-2-3.png', class: 'slide-2-image-3'
               .clear
 
-            #first_slide_set_3
+            #first_slide_set_3.first_slide_active_class
               .phone_item_container.float-left.first_phone{style: 'margin-right: 4px;'}
                 .float-left.phone_number_container
                   %span.number 1
@@ -126,13 +123,13 @@
 
             #second_slide_set_1
               .ipad_item_container
-                .ipad_image_set_1
+                .ipad_image_set_1.slide_two_item_styles
                   = image_tag 'bg-device-managers-1-1.png'
-                .ipad_image_set_2
+                .ipad_image_set_2.slide_two_item_styles
                   = image_tag 'bg-device-managers-1-2.png'
-                .ipad_image_set_3
+                .ipad_image_set_3.slide_two_item_styles
                   = image_tag 'bg-device-managers-1-3.png'
-                .ipad_image_set_4
+                .ipad_image_set_4.slide_two_item_styles
                   = image_tag 'bg-device-managers-1-4.png'
 
               .clear
@@ -143,8 +140,8 @@
         .container
           %br
           %br
-          .header
-            %p Clari applies data science across various measurable information stores that sales teams use every day (e.g. CRM, mail, calendar, support) — surfacing predictive insights for reps, managers and execs that enables a new level of sales management, execution & forecasting.
+          .header{style: 'height: 80px;'}
+            %p{style: 'position: relative; top: -35px;'} Clari applies data science across various measurable information stores that sales teams use every day (e.g. CRM, mail, calendar, support) — surfacing predictive insights for reps, managers and execs that enables a new level of sales management, execution & forecasting.
         #third_slide_background
           .container#first_slide_3.hide_first_slide
 

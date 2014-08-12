@@ -4,6 +4,7 @@ $ ->
   $('.carousel-indicators li').on 'click', ->
     $(this).addClass('active').siblings().removeClass('active')
 
+  $('.ipad_image_set_1').animate({'opacity': 1}, 900).siblings().css({'opacity': 0}).stop()
   $('#first_slide_set_1').fadeIn(1000).siblings().hide()
   $('#first_slide_set_1 img').animate({'opacity': 1, 'margin-top': 15}, 1000)
 
@@ -13,7 +14,7 @@ $ ->
     value = $(@).data('value')
 
     if value == 0
-      $('#first_slide_set_1').fadeIn(1000).siblings().hide()
+      $('#first_slide_set_1').fadeIn(1000).siblings().hide().stop()
       $('#first_slide_set_1 img').animate({'opacity': 1, 'margin-top': 15}, 1000)
     else
       $('#first_slide_set_1').removeAttr "style"
