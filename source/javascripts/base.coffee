@@ -1,6 +1,11 @@
-$ ->
+$ ->    
+  $(".carousel").carousel interval: false
+
   $('.carousel-indicators li').on 'click', ->
     $(this).addClass('active').siblings().removeClass('active')
+
+  $('#first_slide_set_1').fadeIn(1000).siblings().hide()
+  $('#first_slide_set_1 img').animate({'opacity': 1, 'margin-top': 15}, 1000)
 
   $('.first_slide_menu li').on 'click', ->
     $(this).addClass('first_slide_menu_active').siblings().removeClass('first_slide_menu_active')
@@ -9,17 +14,22 @@ $ ->
 
     if value == 0
       $('#first_slide_set_1').fadeIn(1000).siblings().hide()
-      $('#first_slide_set_1 img').animate({'opacity': 1}, 200)
+      $('#first_slide_set_1 img').animate({'opacity': 1, 'margin-top': 15}, 1000)
+    else
+      $('#first_slide_set_1').removeAttr "style"
+      $('#first_slide_set_1 img').removeAttr "style"
     if value == 1
       $('#first_slide_set_2').fadeIn(1000).siblings().hide()
-      $('#first_slide_set_2 img').animate({'opacity': 1}, 200, ->
-        $('#first_slide_set_2 img').animate({'margin-top': 15}, 1000)
-      )
+      $('#first_slide_set_2 img').animate({'opacity': 1, 'margin-top': 15}, 1000)
+    else
+      $('#first_slide_set_2').removeAttr "style"
+      $('#first_slide_set_2 img').removeAttr "style"
     if value == 2
       $('#first_slide_set_3').fadeIn(1000).siblings().hide()
-      $('#first_slide_set_3 img').animate({'opacity': 1}, 200, ->
-        $('#first_slide_set_3 img').animate({'margin-top': 15}, 1000)
-      )
+      $('#first_slide_set_3 img').animate({'opacity': 1, 'margin-top': 15}, 1000)
+    else
+      $('#first_slide_set_3').removeAttr "style"
+      $('#first_slide_set_3 img').removeAttr "style"
 
   $('.second_slide_menu li').on 'click', ->
     $(this).addClass('first_slide_menu_active').siblings().removeClass('first_slide_menu_active')
@@ -27,10 +37,10 @@ $ ->
     value = $(@).data('value')
 
     if value == 0
-      $('.ipad_image_set_1').animate({'opacity': 1, left: 0;}, 900).siblings().css({'opacity': 0})
+      $('.ipad_image_set_1').animate({'opacity': 1}, 900).siblings().css({'opacity': 0}).stop()
     if value == 1
-      $('.ipad_image_set_2').animate({'opacity': 1, left: 0;}, 900).siblings().css({'opacity': 0})
+      $('.ipad_image_set_2').animate({'opacity': 1}, 900).siblings().css({'opacity': 0}).stop()
     if value == 2
-      $('.ipad_image_set_3').animate({'opacity': 1, left: 0;}, 900).siblings().css({'opacity': 0})
+      $('.ipad_image_set_3').animate({'opacity': 1}, 900).siblings().css({'opacity': 0}).stop()
     if value == 3
-      $('.ipad_image_set_4').animate({'opacity': 1, left: 0;}, 900).siblings().css({'opacity': 0})
+      $('.ipad_image_set_4').animate({'opacity': 1}, 900).siblings().css({'opacity': 0}).stop()
