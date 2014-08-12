@@ -1,0 +1,488 @@
+/* line 18, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+body {
+  margin: 0;
+  padding: 0; }
+
+/* line 23, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.clear {
+  clear: both; }
+
+/* line 27, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+#benefits_container {
+  font-family: helvetica; }
+  /* line 30, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  #benefits_container .float-left {
+    float: left; }
+  /* line 34, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  #benefits_container .float-right {
+    float: right; }
+  /* line 38, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  #benefits_container .container {
+    width: 980px;
+    margin: 0 auto; }
+  /* line 43, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  #benefits_container p {
+    line-height: 24px; }
+  /* line 47, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  #benefits_container #header {
+    text-align: center; }
+  /* line 51, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  #benefits_container .header {
+    color: white;
+    font-weight: 100;
+    height: 174px;
+    padding-top: 10px; }
+    /* line 57, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+    #benefits_container .header p {
+      opacity: 0.7; }
+  /* line 62, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  #benefits_container #carousel_main_nav {
+    padding: 0 !important;
+    margin: 0 !important;
+    position: relative;
+    top: -10px; }
+  /* line 69, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  #benefits_container .carousel-indicators {
+    margin: 0 auto; }
+    /* line 72, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+    #benefits_container .carousel-indicators li {
+      width: 250px !important;
+      height: 140px;
+      background: #ffffff;
+      margin-right: 100px; }
+      /* line 78, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+      #benefits_container .carousel-indicators li:nth-child(3) {
+        margin-right: 0 !important; }
+    /* line 83, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+    #benefits_container .carousel-indicators li.active {
+      background: #6D818A;
+      width: 250px !important;
+      height: 140px;
+      color: white; }
+
+/* line 92, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+#first_slide_background {
+  background-image: url("../images/bg-benefits-reps.jpg");
+  width: 100%;
+  height: 600px;
+  background-size: cover; }
+  /* line 9, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  #first_slide_background .container {
+    background: rgba(255, 255, 255, 0.5);
+    width: 980px;
+    height: 570px;
+    overflow: hidden;
+    padding-top: 40px; }
+
+/* line 96, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+#second_slide_background {
+  background-image: url("../images/bg-benefits-managers.jpg");
+  width: 100%;
+  height: 600px;
+  background-size: cover; }
+  /* line 9, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  #second_slide_background .container {
+    background: rgba(255, 255, 255, 0.5);
+    width: 980px;
+    height: 570px;
+    overflow: hidden;
+    padding-top: 40px; }
+
+/* line 100, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+#third_slide_background {
+  background-image: url("../images/bg-benefits-ops.jpg");
+  width: 100%;
+  height: 600px;
+  background-size: cover; }
+  /* line 9, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  #third_slide_background .container {
+    background: rgba(255, 255, 255, 0.5);
+    width: 980px;
+    height: 570px;
+    overflow: hidden;
+    padding-top: 40px; }
+
+/* line 105, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.active_menu_bar {
+  width: 250px !important;
+  height: 140px; }
+
+/* line 110, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.menu_bar {
+  width: 250px !important;
+  height: 140px; }
+
+/* line 115, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.person_icon {
+  width: 100px;
+  margin: 0 auto;
+  height: 100px;
+  position: relative;
+  top: 20px; }
+
+/* line 123, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.first_slide_menu {
+  position: relative; }
+  /* line 126, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  .first_slide_menu ul {
+    list-style: none;
+    padding: 0; }
+    /* line 130, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+    .first_slide_menu ul li {
+      display: inline-block;
+      margin-right: -13px;
+      cursor: pointer;
+      padding: 26px;
+      width: 280px;
+      text-align: center;
+      font-weight: bold; }
+      /* line 139, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+      .first_slide_menu ul li:nth-child(3) {
+        margin-right: 0 !important; }
+  /* line 145, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  .first_slide_menu .first_slide_menu_active {
+    color: black;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 26px; }
+
+/* line 154, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.phone_item_container {
+  width: 280px;
+  padding: 20px; }
+  /* line 158, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  .phone_item_container img {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 30px; }
+
+/* line 165, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.active_phone_item_container {
+  background: rgba(255, 255, 255, 0.5); }
+
+/* line 169, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.phone_content_container {
+  width: 220px;
+  font-size: 15px; }
+
+/* line 174, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.phone_number_container {
+  text-align: center;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -o-border-radius: 45px;
+  border-radius: 45px;
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+  border: solid black 1px; }
+  /* line 182, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  .phone_number_container span.number {
+    position: relative;
+    top: 5px;
+    font-size: 30px;
+    font-weight: 200; }
+
+/* line 190, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.first_slide_active_class {
+  display: none; }
+  /* line 193, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  .first_slide_active_class img {
+    margin-top: 500px;
+    opacity: 0; }
+
+/* line 199, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.second_slide_menu {
+  text-align: left !important;
+  position: relative; }
+  /* line 203, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  .second_slide_menu ul {
+    list-style: none;
+    padding: 0;
+    text-align: left; }
+    /* line 208, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+    .second_slide_menu ul li {
+      display: inline-block;
+      cursor: pointer;
+      font-weight: bold;
+      width: 200px;
+      padding: 10px;
+      margin-right: 28px;
+      vertical-align: text-top; }
+      /* line 218, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+      .second_slide_menu ul li:nth-child(4) {
+        margin-right: 0px !important; }
+  /* line 224, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  .second_slide_menu .first_slide_menu_active {
+    color: black;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    height: 55px;
+    font-weight: bold;
+    width: 200px;
+    padding: 10px; }
+
+/* line 235, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.ipad_item_container {
+  height: 540px;
+  width: 800px;
+  position: relative;
+  right: -100px;
+  overflow: hidden;
+  z-index: 10000; }
+
+/* line 244, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.slide_two_item_styles {
+  opacity: 0;
+  position: absolute;
+  top: 0px; }
+
+/* line 250, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.description_number_container {
+  width: 260px;
+  margin-right: 60px;
+  text-align: left; }
+  /* line 255, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  .description_number_container .phone_content_container {
+    width: 200px; }
+  /* line 259, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  .description_number_container .phone_number_container {
+    text-align: center;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+    border-radius: 45px;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    border: solid black 1px; }
+    /* line 267, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+    .description_number_container .phone_number_container span.number {
+      position: relative;
+      top: 5px;
+      font-size: 30px;
+      font-weight: 200; }
+
+/* line 276, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.description_number_parent {
+  position: relative;
+  right: -30px; }
+
+/* line 304, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel {
+  position: relative;
+  top: -12px;
+  background: #687A7E; }
+
+/* line 309, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  height: 650px;
+  overflow: hidden; }
+
+/* line 315, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-inner > .item {
+  position: relative;
+  display: none;
+  -webkit-transition: .6s ease-in-out left;
+  -o-transition: .6s ease-in-out left;
+  transition: .6s ease-in-out left; }
+
+/* line 323, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  line-height: 1; }
+
+/* line 328, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-inner > .active,
+.carousel-inner > .next,
+.carousel-inner > .prev {
+  display: block; }
+
+/* line 331, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-inner > .active {
+  left: 0; }
+
+/* line 335, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-inner > .next,
+.carousel-inner > .prev {
+  position: absolute;
+  top: 0;
+  width: 100%; }
+
+/* line 340, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-inner > .next {
+  left: 100%; }
+
+/* line 343, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-inner > .prev {
+  left: -100%; }
+
+/* line 347, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-inner > .next.left,
+.carousel-inner > .prev.right {
+  left: 0; }
+
+/* line 350, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-inner > .active.left {
+  left: -100%; }
+
+/* line 353, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-inner > .active.right {
+  left: 100%; }
+
+/* line 356, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  filter: alpha(opacity=50);
+  opacity: .5; }
+
+/* line 369, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-control.left {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.0001)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  background-repeat: repeat-x; }
+
+/* line 377, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  background-repeat: repeat-x; }
+
+/* line 388, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #fff;
+  text-decoration: none;
+  filter: alpha(opacity=90);
+  outline: 0;
+  opacity: .9; }
+
+/* line 398, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block; }
+
+/* line 405, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-control .icon-prev,
+.carousel-control .glyphicon-chevron-left {
+  left: 50%;
+  margin-left: -10px; }
+
+/* line 410, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-right {
+  right: 50%;
+  margin-right: -10px; }
+
+/* line 415, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  font-family: serif; }
+
+/* line 421, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-control .icon-prev:before {
+  content: '\2039'; }
+
+/* line 424, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-control .icon-next:before {
+  content: '\203a'; }
+
+/* line 427, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-indicators {
+  z-index: 15;
+  padding-left: 0;
+  text-align: center;
+  list-style: none; }
+
+/* line 433, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff; }
+
+/* line 443, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #fff; }
+
+/* line 449, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
+
+/* line 461, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+.carousel-caption .btn {
+  text-shadow: none; }
+
+@media screen and (min-width: 768px) {
+  /* line 468, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    font-size: 30px; }
+
+  /* line 475, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .icon-prev {
+    margin-left: -15px; }
+
+  /* line 479, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-next {
+    margin-right: -15px; }
+
+  /* line 482, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  .carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 30px; }
+
+  /* line 487, /Users/Ricky/Sites/claire_site/source/stylesheets/all.scss */
+  .carousel-indicators {
+    bottom: 20px; } }
