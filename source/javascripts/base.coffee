@@ -1,6 +1,38 @@
 $ ->    
   $(".carousel").carousel interval: false
 
+  $("#carousel-example-generic").swiperight ->
+    $("#carousel-example-generic").carousel "prev"
+
+    id = $(@).closest('#carousel-example-generic').find('.item.active').attr('id')
+
+    if id == 'slide1'
+      $('#third-main-tab').addClass('active').siblings().removeClass('active')    
+
+    if id == 'slide2'
+      $('#first-main-tab').addClass('active').siblings().removeClass('active')
+
+    if id == 'slide3'
+      $('#second-main-tab').addClass('active').siblings().removeClass('active')
+
+    return
+
+  $("#carousel-example-generic").swipeleft ->
+    $("#carousel-example-generic").carousel "next"
+    
+    id = $(@).closest('#carousel-example-generic').find('.item.active').attr('id')
+
+    if id == 'slide1'
+      $('#second-main-tab').addClass('active').siblings().removeClass('active')    
+
+    if id == 'slide2'
+      $('#third-main-tab').addClass('active').siblings().removeClass('active')
+
+    if id == 'slide3'
+      $('#first-main-tab').addClass('active').siblings().removeClass('active')
+
+    return
+
   $('.carousel-indicators li').on 'click', ->
     $(this).addClass('active').siblings().removeClass('active')
 
@@ -45,3 +77,5 @@ $ ->
       $('.ipad_image_set_3').animate({'opacity': 1}, 900).siblings().css({'opacity': 0}).stop()
     if value == 3
       $('.ipad_image_set_4').animate({'opacity': 1}, 900).siblings().css({'opacity': 0}).stop()
+
+  
